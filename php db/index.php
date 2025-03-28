@@ -16,5 +16,8 @@ else
 {
     echo "somthing worng";
 }
+$s = "INSERT INTO testtable (name) VALUES('wilson')";
+
+$db->exec($s);
 //phpinfo();
 ?>
